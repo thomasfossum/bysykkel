@@ -10,7 +10,9 @@
 </svelte:head>
 
 <section>
-    <h1>Sykkelstatus</h1>
+    <h1 class="text-3xl font-bold underline text-cyan-600">
+        Sykkelstatus
+      </h1>
     {#each $sykkelInfo as sykkelInformasjon}
     <p>{sykkelInformasjon.name}</p>
     <p>{sykkelInformasjon.id}</p>
