@@ -1,30 +1,33 @@
-# SvelteKit
+## Get it up and running
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte), deployed to [Vercel](https://vercel.com).
+View it online at: https://bysykkel.vercel.app/
 
-## Deploy Your Own
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel%2Ftree%2Fmain%2Fexamples%2Fsveltekit&project-name=sveltekit-vercel&repository-name=sveltekit-vercel&demo-title=SvelteKit%20%2B%20Vercel&demo-description=A%20SvelteKit%20app%20optimized%20Edge-first.&demo-url=https%3A%2F%2Fsveltekit-template.vercel.app%2F)
+Alternatively, get it running locally by: 
 
-_Live Example: https://sveltekit-template.vercel.app_
+1. Install PNPM (https://pnpm.io/installation)
+2. navigate to project root and run "pnpm install"
+3. run "pnpm run dev"
+4. go to localhost:5173 in browser and enjoy
 
-## Developing
+----------
 
-Once you've installed dependencies with `pnpm install`, start a development server:
+## About this project
+Hvordan du viser listen er helt opp til deg, men den må inneholde navnet på stativet, antall tilgjengelige låser og ledige sykler i øyeblikket. Flott om du viser at du har tenkt på sluttbrukeren. 
 
-```bash
-pnpm run dev
+---
 
-# or start the server and open the app in a new browser tab
-pnpm run dev -- --open
-```
+## Tools and libraries used
+Svelte-kit
 
-## Building
+Vercel
 
-To create a production version of your app:
+Tailwind CSS
 
-```bash
-pnpm run build
-```
 
-You can preview the production build with `npm run preview`.
+---
+
+## Me as a programmer
+Bla bla
+
+---
