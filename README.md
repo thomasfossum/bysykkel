@@ -6,7 +6,7 @@ View it online at: https://bysykkel.vercel.app/
 Alternatively, get it running locally by: 
 
 1. Install PNPM (https://pnpm.io/installation)
-2. navigate to project root and run "pnpm install"
+2. navigate to project root and run "pnpm install dev"
 3. run "pnpm run dev"
 4. go to localhost:5173 in browser and enjoy
 
@@ -16,7 +16,11 @@ Alternatively, get it running locally by:
 Hvordan du viser listen er helt opp til deg, men den må inneholde navnet på stativet, antall tilgjengelige låser og ledige sykler i øyeblikket. Flott om du viser at du har tenkt på sluttbrukeren. 
 
 ---
-
+## Todo
+Error handling (bruk gammel data if error ikke set ny data i store, gi et flagg til brukeren om utdatert data)
+ENV variables
+Descriptions / considerations
+---
 ## Tools and libraries used
 Svelte-kit
 

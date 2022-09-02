@@ -1,6 +1,5 @@
 <script>
-    import { sykkelInfo } from "../stores/stativstore";
-    console.log($sykkelInfo);
+    import Sykkelstatus from "$lib/Sykkelstatus.svelte";
 </script>
 
 
@@ -9,16 +8,8 @@
 	<meta name="Bysykkel" content="Bysykkel status" />
 </svelte:head>
 
-<section>
-    <h1 class="text-3xl font-bold underline text-cyan-600">
-        Sykkelstatus
-      </h1>
-    {#each $sykkelInfo as sykkelInformasjon}
-    <p>{sykkelInformasjon.name}</p>
-    <p>{sykkelInformasjon.id}</p>
-    <p>{sykkelInformasjon.ledige_sykler}</p>
-    <p>{sykkelInformasjon.ledige_laaser}</p>
-    <br>
-    {/each}
 
-</section>
+<h1 class="text-xl text-gray-600 text-center my-8">Sjekk status på Oslos bysykler</h1>
+
+
+<Sykkelstatus></Sykkelstatus>
